@@ -27,6 +27,12 @@ export default class extends Component {
             <NavItem eventKey={4} componentClass={Link} href="/portfolio" to="/portfolio">
               Portfolio
             </NavItem>
+            <NavItem eventkey={5} componentClass={Link} href="https://www.linkedin.com/in/jamessakurai/" target="_blank" to="https://www.linkedin.com/in/jamessakurai/">
+              <i className="fab fa-linkedin fa-lg"></i>
+            </NavItem>
+            <NavItem eventkey={6} componentClass={Link} href="https://github.com/JamesSakurai" target="_blank" to="https://github.com/JamesSakurai">
+              <i className="fab fa-github-square fa-lg"></i>
+            </NavItem>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
